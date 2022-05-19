@@ -504,21 +504,21 @@ int unzip_main(int argc, char **argv)
  * # /usr/bin/unzip -q -v decompress_unlzma.i.zip
  *  Length   Method    Size  Ratio   Date   Time   CRC-32    Name
  * --------  ------  ------- -----   ----   ----   ------    ----
- *   204372  Defl:N    35278  83%  09-06-09 14:23  0d056252  decompress_unlzma.i
+ *   204372  Defl:N    35278  83%  09-06-21 14:23  0d056252  decompress_unlzma.i
  * --------          -------  ---                            -------
  *   204372            35278  83%                            1 file
  * # /usr/bin/unzip -v decompress_unlzma.i.zip
  * Archive:  decompress_unlzma.i.zip
  *  Length   Method    Size  Ratio   Date   Time   CRC-32    Name
  * --------  ------  ------- -----   ----   ----   ------    ----
- *   204372  Defl:N    35278  83%  09-06-09 14:23  0d056252  decompress_unlzma.i
+ *   204372  Defl:N    35278  83%  09-06-21 14:23  0d056252  decompress_unlzma.i
  * --------          -------  ---                            -------
  *   204372            35278  83%                            1 file
  * # unzip -v decompress_unlzma.i.zip
  * Archive:  decompress_unlzma.i.zip
  *   Length     Date   Time    Name
  *  --------    ----   ----    ----
- *    204372  09-06-09 14:23   decompress_unlzma.i
+ *    204372  09-06-21 14:23   decompress_unlzma.i
  *  --------                   -------
  *    204372                   1 files
  * # /usr/bin/unzip -l -qq decompress_unlzma.i.zip
@@ -526,14 +526,14 @@ int unzip_main(int argc, char **argv)
  * # /usr/bin/unzip -l -q decompress_unlzma.i.zip
  *   Length     Date   Time    Name
  *  --------    ----   ----    ----
- *    204372  09-06-09 14:23   decompress_unlzma.i
+ *    204372  09-06-21 14:23   decompress_unlzma.i
  *  --------                   -------
  *    204372                   1 file
  * # /usr/bin/unzip -l decompress_unlzma.i.zip
  * Archive:  decompress_unlzma.i.zip
  *   Length     Date   Time    Name
  *  --------    ----   ----    ----
- *    204372  09-06-09 14:23   decompress_unlzma.i
+ *    204372  09-06-21 14:23   decompress_unlzma.i
  *  --------                   -------
  *    204372                   1 file
  */
